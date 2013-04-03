@@ -21,7 +21,7 @@ If you want to create your own theme can make a fork that project or read this [
 
 ## Install
 
-1. Get the package theme ~> [Download](https://github.com/gigante/clean-mint-theme/archive/master.zip)
+1. Get the package theme ~> [Download](https://github.com/gigante/clean-mint-theme/archive/master.tar.gz)
 
 2. Navite to menu `System -> Administration -> Login Screen` or just `/usr/sbin/mdmsetup`
 
