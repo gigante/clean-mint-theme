@@ -1,8 +1,6 @@
 # Clean Mint (MDM) Theme 
 [*with support HTML*](http://blog.linuxmint.com/?p=2327)
 
-***
-
 ## Description
 
 Clean Theme for Linux Mint Display Manager (MDM) with support HTML. 
@@ -27,6 +25,20 @@ If you want to create your own theme can make a fork that project or read this [
 
 2. Navite to menu `System -> Administration -> Login Screen` or just `/usr/sbin/mdmsetup`
 
-3. On tab `Local`, choose 'HTML` int the field `Style`
+3. On tab `Local`, choose `HTML` int the field `Style`
 
 4. Click in button `Add` and Navigate to the file that you downloaded
+
+## Author
+
+Developed by [Hiarison Gigante](http://gigante.pro)
+
+## Credits
+
+* Twitter Bootstrap by [@fat and @mdo](http://twitter.github.com/bootstrap/index.html)
+
+### Fonts
+
+* Fjalla One by [Irina Smirnova](http://www.google.com/fonts/specimen/Fjalla+One)
+
+* Roboto by [Christian Robertson](http://www.google.com/fonts/specimen/Roboto)
