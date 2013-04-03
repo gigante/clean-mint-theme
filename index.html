@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="UTF-8">	
+	<link href="bootstrap.min.css" rel="stylesheet">	
+	<link href="theme.css" rel="stylesheet">		
+</head>
+<body>		
+<div id="wrap">
+	<div id="welcome_message" class="msg-title"></div>
+	<div class="box">											
+		<div id="error">...</div>		
+		<form id="login-box" class="form-inline" onSubmit="return send_login();">											
+				<input id="entry" type="text" class="input-medium">				
+				<button type="submit" class="btn btn-inverse" id="ok_button">$ok_label</button>			
+		</form>		
+		<div id="label"></div>		
+	</div>		
+	<div class="buttons">		
+		<a class="btn btn-danger" href="#" onClick="alert('SHUTDOWN###');" title="$shutdown" id="shutdown">
+			<i class="icon-off icon-white"></i></a>
+		<a class="btn btn-warning" href="#" onClick="alert('RESTART###');" title="$restart" id="restart">
+			<i class="icon-refresh icon-white"></i></a>
+		<a class="btn btn-info" href="#" onClick="alert('SUSPEND###');" title="$suspend" id="suspend">
+			<i class="icon-time icon-white"></i></a>
+		<a class="btn btn-success" href="#" onClick="alert('QUIT###');" title="$quit" id="quit">
+			<i class="icon-ban-circle icon-white"></i></a>					
+	</div>			
+</div>
+</body>
+</html>
+<script src="script.js"></script>
